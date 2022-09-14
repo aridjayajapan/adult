@@ -7,12 +7,6 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        // redirect all calls to the function called "api"
-        "source": "**",
-        "function": "api/index.php"
-      }
-    ]
+    "function": "api/index.php"
   }
 }
