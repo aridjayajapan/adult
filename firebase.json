@@ -2,11 +2,14 @@
   "hosting": {
     "site": "adultjapans",
     "public": "public",
+    "rewrite":[{
+      "source":"**",
+      "functions":"api/index.php",
+    }],
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "function": "api/index.php"
+    ]
   }
 }
