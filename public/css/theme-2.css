@@ -1,0 +1,97 @@
+.wptao-item{width:auto;max-width:520px;height:auto;padding:10px;border:1px solid #eee;overflow:hidden;vertical-align:middle;display:block;margin:10px auto;position:relative;background:#f7f7f7}
+.wptao-L{margin:10px 0}
+.wptao-R{float:right}
+.wptao-clear{clear:both}
+.wptao-item a{text-decoration:none;cursor:pointer}
+.wptao-item:hover{box-shadow:1px 1px 8px #eee}
+.wptao-item img.wptao-res{max-width:140px;max-height:140px;float:left;margin:0 auto;margin-right:10px}
+.wptao-item span{display:block}
+.wptao-item .wptao-title{font-size:16px;line-height:22px;max-height:44px;overflow:hidden;color:#333}
+.wptao-item .wptao-title em{font-size:12px;font-style:normal}
+.wptao-item .wptao-des{font-size:12px;color:#777;line-height:18px;max-height:36px;overflow:hidden;display:block;margin-top:10px;margin-bottom:10px}
+.wptao-item .wptao-oth{padding-top:20px;line-height:24px;font-family:"Helvetica","Hiragino Sans GB","Microsoft Yahei",sans-serif}
+.wptao-item .wptao-oth .wptao-res i{font-size:12px;vertical-align:0;margin-right:3px}
+.wptao-item .wptao-btn{font-size:16px;float:right;height:30px;width:100px;line-height:30px;border:1px solid #da0d15;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#da0d15;text-align:center}
+.wptao-item .wptao-price{margin-left:8px;font-size:19px;float:left;line-height:32px;color:#f50}
+.wptao-item .wptao-price em{font-size:14px;font-style:normal}
+.wptao-item .wptao-old-price{font-size:12px;color:#999;float:left;margin:5px 10px 0;text-decoration:line-through}
+.wptao-item .wptao-oth .wptao-quan a{float:left;width:95px;height:30px;line-height:30px;border:1px dotted #f95c68;box-shadow:none;color:#f95c68;text-align:center}
+.wptao-item .wptao-oth .wptao-quan a:hover{background-color:#fff2f3;text-decoration:none}
+.wptao-item .wptao-oth .wptao-quan a .quan{float:left;display:inline-block;width:30px;text-align:center;border-right:1px dotted #f95c68}
+@media screen and (max-width:479px){
+.wptao-item img.wptao-res{max-width:110px;max-height:110px}
+.wptao-item .wptao-oth{padding-top:0px}
+.wptao-item .wptao-price{font-size:20px}
+}
+
+a:hover {
+	color: #ff8676
+}
+.sitenav > ul > li.menu-item-has-children:hover > a::before {
+	border-top-color: #ff8676
+}
+.sitenav ul li:hover > a, .sitenav ul li.active a:hover, .sitenav ul li a:hover {
+	color: #ff8676
+}
+.sitenav ul li.current-menu-item > a, .sitenav ul li.current-menu-parent > a {
+	color: #ff8676;
+	border-bottom-color: #ff8676
+}
+.searchform .sinput:focus {
+	border-color: #ff8676
+}
+.searchform .sbtn {
+	background-color: #ff8676
+}
+.post-like.actived {
+	color: #ff8676
+}
+.excerpt time.hot {
+	color: #ff8676
+}
+.excerpt-combine footer time.hot {
+	background-color: #ff8676
+}
+.pagination ul li.next-page a {
+	background-color: #ff8676
+}
+.ias_trigger a {
+	background-color: #ff8676
+}
+.article-content h2 {
+	border-left: 7px solid #ff8676
+}
+.article-actions .action-like {
+	background-color: #ff8676
+}
+.article-tags a:hover {
+	background-color: #ff8676
+}
+.image-navigation a {
+	background-color: #ff8676
+}
+.tagslist li .name:hover {
+	background-color: #ff8676
+}
+.comt-submit {
+	background: #ff8676;
+	border-color: #ff8676
+}
+ @media (max-width:768px) {
+.sitenav ul li.current-menu-item > a {
+	background-color: #ff8676
+}
+.sitenav ul li.current-menu-parent > a {
+	color: #ff8676
+}
+.sitenav ul li.current-menu-item>a {
+	color: #fff;
+}
+}
+ @media (max-width:544px) {
+.excerpt-combine h2 a:hover {
+	color: #ff8676
+}
+.excerpt-combine footer time.hot {
+	color: #ff8676
+}
