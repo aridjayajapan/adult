@@ -7,10 +7,12 @@
       "**/.*",
       "**/node_modules/**"
     ],
-  },
-  "functions": {
-    "api/index.php": {
-      "runtime": "vercel-php@0.3.1"
-    }
+    "rewrites": [
+      {
+        // redirect all calls to the function called "api"
+        "source": "**",
+        "function": "api/index.php"
+      }
+    ]
   }
 }
